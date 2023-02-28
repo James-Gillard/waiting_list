@@ -1,0 +1,73 @@
+body {
+    background-color: black;
+}
+
+#img-cont img {
+    height: 100px;
+    width: auto;
+}
+
+#img-cont {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#img-cont h1 {
+    padding-top: 8px;
+    text-decoration: underline;
+}
+
+table {
+    margin-top: 10px;
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table td,
+table tr,
+table th {
+    border: 2px solid black;
+}
+
+table th {
+    font-size: 30px;
+    text-decoration: underline;
+    border-bottom: 4px solid black;
+}
+
+table td {
+    line-height: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+#button-cont {
+    display: flex;
+    justify-content: center;
+}
+
+#button {
+    margin-top: 30px;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: gold;
+    color: white;
+}
+
+#button a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    list-style: none;
+}
+
+#para {
+    color: white;
+}
